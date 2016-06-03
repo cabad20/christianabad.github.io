@@ -1,3 +1,8 @@
+  li{
+    display: none;
+  }
+
+
   body {
     background-color: #efefef;
   }
@@ -5,13 +10,30 @@
   div {
     height: 30vh;
     width: 100%;
-    margin: 0 40px
   }
   .main {
     font-size: 2em;
     text-align: center;
-    color: #64869E;
-    background-color: pink;
-    margin: 0 30px;
-    position: relative;
+    color: #A19710;
+    background-color: #076B8C;
+    opacity: .7;
+    padding-top: 35px;
+    height: 15vh;
+    margin: 0px, 30px, 0px, 30px;
+    font-family: American Typewritter;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 30vw;
+
+  }
+   li {
+    display: flex;
+    width: 15vw;
+    height: 15vh;
+    padding-top: 20vh;
+    color: #A19710;
+
   }

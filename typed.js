@@ -399,7 +399,7 @@
         // typing speed
         typeSpeed: 0,
         // time before typing starts
-        startDelay: 0,
+        startDelay: 8000,
         // backspacing speed
         backSpeed: 0,
         // shuffle the strings
@@ -432,8 +432,21 @@
 }(window.jQuery);
 
 $(function(){
-      $(".main").typed({
-        strings: ["Hi, my name is <strong> Christian Abad </strong /> <br /> <t />I am a Software Developer."],
-        typeSpeed: 60
+      $(".about").typed({
+        strings: ["<strong> About </strong>"],
+        typeSpeed: 200
+      });
+  });
+
+$(function(){
+      $(".portfolio").typed({
+        strings: ["<strong> Portfolio </strong>"],
+        typeSpeed: 200
+      });
+  });
+$(function(){
+      $(".contact").typed({
+        strings: ["<strong> Contact </strong>"],
+        typeSpeed: 200
       });
   });
