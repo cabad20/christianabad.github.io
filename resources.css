@@ -7,9 +7,15 @@
     background-color: #efefef;
   }
 
-  div {
+  .socialMedia {
     height: 30vh;
     width: 100%;
+    text-align: right;
+  }
+  img {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
   }
   .main {
     font-size: 2em;
@@ -35,5 +41,4 @@
     height: 15vh;
     padding-top: 20vh;
     color: #A19710;
-
   }
