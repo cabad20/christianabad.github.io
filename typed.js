@@ -434,19 +434,19 @@
 $(function(){
       $(".about").typed({
         strings: ["<strong> About </strong>"],
-        typeSpeed: 200
+        typeSpeed: 240
       });
   });
 
 $(function(){
       $(".portfolio").typed({
         strings: ["<strong> Portfolio </strong>"],
-        typeSpeed: 200
+        typeSpeed: 240
       });
   });
 $(function(){
       $(".contact").typed({
         strings: ["<strong> Contact </strong>"],
-        typeSpeed: 200
+        typeSpeed: 240
       });
   });
