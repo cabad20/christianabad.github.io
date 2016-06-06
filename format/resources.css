@@ -30,6 +30,7 @@
     height: 15vh;
     margin: 0px, 30px, 0px, 30px;
     font-family: ailerons;
+    position: relative;
   }
   .menu {
     display: flex;
@@ -47,35 +48,30 @@
     margin-top: 20vh;
 
   }
-  section{
-    display: flex;
-    flex-direction: column;
-    background-color: #076B8C;
-    width: 100%;
-    height: 100vh;
-    color: #efefef;
-    font-family: rex light;
+  section.holderSection{
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+    font-family: adam;
+    padding: 5vh 5vw 5vh 5vw;
   }
-  #bio{
-    height: 45vh;
-    padding: 5px 10px 25px 10px;
-    border-bottom: 4px solid #efefef;
+  div#bio{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    visibility: collapse;
   }
-  #portfolio{
-    height: 45vh;
-    padding: 5px 10px 25px 10px;
-    border-bottom: 4px solid #efefef;
+  div#portfolio{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    visibility: collapse;
   }
-  #contact{
-    height: 10vh;
-    padding: 25px 10px 25px 10px;
-  }
-  .contactInfo {
-    color: #A19710;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 20px;
+  div#contact{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    visibility: collapse;
   }
   h2{
     text-align: center;
