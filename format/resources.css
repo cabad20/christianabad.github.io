@@ -1,19 +1,26 @@
-  li{
-    display: none;
-  }
-  a{
+  .{
     text-decoration: none;
+    box-sizing: border-box;
+    display: inherit;
   }
 
+  li{
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inherit;
+  }
   body {
     background-color: #efefef;
     box-sizing: border-box;
   }
-
   .socialMedia {
     height: 30vh;
     width: 100%;
     text-align: right;
+  }
+  .socialMediaPages {
+    height: 2vh;
+    float: right;
   }
   img {
     width: 25px;
@@ -25,7 +32,6 @@
     text-align: center;
     color: #A19710;
     background-color: #076B8C;
-    /*opacity: .7;*/
     padding-top: 35px;
     height: 15vh;
     margin: 0px, 30px, 0px, 30px;
@@ -44,35 +50,51 @@
     font-family: ailerons;
     /*padding-top: 20vh;*/
     color: #A19710;
-    font-size: 18px;
+    font-size: 1.2em;
     margin-top: 20vh;
+    text-decoration: none;
 
   }
-  section.holderSection{
-    height: 50vh;
-    width: 50vw;
-    position: relative;
-    font-family: adam;
-    padding: 5vh 5vw 5vh 5vw;
-  }
-  div#bio{
-    position: absolute;
-    height: inherit;
-    width: inherit;
-    visibility: collapse;
-  }
-  div#portfolio{
-    position: absolute;
-    height: inherit;
-    width: inherit;
-    visibility: collapse;
-  }
-  div#contact{
-    position: absolute;
-    height: inherit;
-    width: inherit;
-    visibility: collapse;
-  }
-  h2{
-    text-align: center;
-  }
+   #bio{
+     height: 80vh;
+     background-color: #076B8C;
+     font-family: ubuntu;
+     color: #efefef;
+     margin: 5vh 5vw;
+     padding: 3vh 3vw;
+     font-size: 1.3em;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+   }
+   #portfolio{
+     height: 80vh;
+     background-color: #076B8C;
+     margin: 5vh 5vw;
+     padding: 3vh 3vw;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     text-align: center;
+     padding-top: 15vh;
+   }
+   .picInfo{
+     font-family: ubuntu;
+     color: #efefef;
+     font-size: 1em;
+   }
+   .menuPages{
+     font-size: 1em;
+     height: 3vh;
+     padding-left: 1vw;
+   }
+   .profPicture{
+     height: 30vh;
+     width: 30vh;
+     float: right;
+   }
+   .projects{
+     height: 40vh;
+     width: 50vh;
+   }

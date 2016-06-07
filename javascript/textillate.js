@@ -285,5 +285,4 @@
   };
 
 }(jQuery));
-$('.main').textillate({
-});
+$('.main').textillate();
